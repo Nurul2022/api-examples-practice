@@ -36,6 +36,6 @@ const displayCountriesDetail = country => {
     countryDiv.innerHTML = `
     <h5>${country.name.common} </h5>
     <p>Population: ${country.population}</p>
-    <img src="${country.flags.png}">
+    <img width="200px" src="${country.flags.png}">
     `
 }
